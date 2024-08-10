@@ -78,13 +78,13 @@
           off;
 
         on = function () {
-          $this.css("background-position", "center 0px");
+          $this.css("background-position");
 
           $window.on("scroll._parallax", function () {
             var pos =
               parseInt($window.scrollTop()) - parseInt($this.position().top);
 
-            $this.css("background-position", "center " + pos * -0.15 + "px");
+            $this.css("background-position");
           });
         };
 

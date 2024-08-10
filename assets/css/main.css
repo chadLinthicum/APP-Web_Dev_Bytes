@@ -2844,7 +2844,7 @@ ul.actions.fit.stacked {
   ul.actions:not(.fixed) li input[type="button"],
   ul.actions:not(.fixed) li button,
   ul.actions:not(.fixed) li .button {
-    width: 100%;
+    width: 40%;
   }
 
   ul.actions:not(.fixed) li input[type="submit"].icon:before,
@@ -3769,7 +3769,7 @@ body.is-touch #banner {
   .spotlight.left .content,
   .spotlight.right .content {
     padding: 4.5em 2.5em;
-    width: 25em;
+    width: 30em;
   }
 
   /* Wrapper */
