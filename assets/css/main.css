@@ -3632,7 +3632,7 @@ body.landing #header {
     rgba(45, 43, 58, 0.95),
     rgba(46, 39, 79, 0.95),
     rgba(41, 37, 63, 0.95),
-    rgba(195, 255, 30, 0.95)
+    rgba(102, 140, 0, 0.95)
   );
   background-size: 200% 200%;
   animation: gradient 5s ease infinite;
