@@ -2304,10 +2304,6 @@ footer.major {
   margin: 0.5em 0 0 0;
 }
 
-footer.major span {
-  float: right;
-}
-
 /* Form */
 
 form {
@@ -3067,8 +3063,23 @@ input[type="button"]:disabled,
   z-index: 1;
 }
 
+.goto-next-alt {
+  border: 0;
+  bottom: 0;
+  display: block;
+  height: 5em;
+  left: 50%;
+  margin: 0 0 0 -5em;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 10em;
+  white-space: nowrap;
+  width: 10em;
+  z-index: 1;
+}
+
 .goto-next:before {
-  background-image: url("images/arrow.svg");
+  background-image: url("images/arrow_white.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -3079,6 +3090,22 @@ input[type="button"]:disabled,
   margin: -0.75em 0 0 -1em;
   position: absolute;
   top: 50%;
+  width: 2em;
+  z-index: 1;
+}
+
+.goto-next-alt:before {
+  background-image: url("images/arrow_black.svg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: "";
+  display: block;
+  height: 1.5em;
+  left: 50%;
+  margin: -0.75em 0 0 -1em;
+  position: absolute;
+  top: 45%;
   width: 2em;
   z-index: 1;
 }
@@ -3600,7 +3627,7 @@ body.landing #header {
 }
 
 #banner:after {
-  background-image: -moz-linear-gradient(
+  /* background-image: -moz-linear-gradient(
       top,
       rgba(74, 70, 94, 0.95),
       rgba(46, 39, 79, 0.95)
@@ -3623,7 +3650,7 @@ body.landing #header {
       rgba(74, 70, 94, 0.95),
       rgba(46, 39, 79, 0.95)
     ),
-    url("images/overlay.png");
+    url("images/overlay.png"); */
   content: "";
   display: block;
   height: 100%;
@@ -3631,6 +3658,27 @@ body.landing #header {
   position: absolute;
   top: 0;
   width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(45, 43, 58, 0.95),
+    rgba(46, 39, 79, 0.95),
+    rgba(41, 37, 63, 0.95),
+    rgba(195, 255, 30, 0.95)
+  );
+  background-size: 200% 200%;
+  animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 20% 50%;
+  }
+  50% {
+    background-position: 50% 60%;
+  }
+  100% {
+    background-position: 60% 50%;
+  }
 }
 
 #banner .content {
