@@ -42,6 +42,8 @@ table {
   table-layout: fixed;
   width: 100%;
   border-collapse: separate;
+  box-shadow: 5px 5px 5px rgba(150, 146, 174, 0.5);
+  border-radius: 25px;
   text-shadow: 1.25px 1.25px 1.25px black;
 }
 
@@ -49,37 +51,49 @@ thead th {
   border-top: 3px solid rgba(122, 115, 156, 1);
   border-left: 3px solid rgba(122, 115, 156, 1);
   border-right: 3px solid rgba(122, 115, 156, 1);
-  border-bottom: 3px solid rgb(255, 255, 255);
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   font-weight: bold;
   font-size: 2rem;
 }
 
-/* .table-wrap tbody tr:last-child {
-  background-color: pink;
-} */
+.table-wrap table tbody tr:last-child td:first-child {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
 
 tbody td {
   border-bottom: 3px solid rgb(255, 255, 255);
 }
 
-tbody td {
-  border-right: 3px solid rgb(255, 255, 255);
-  border-left: 3px solid rgb(255, 255, 255);
+.table-wrap table tbody tr:last-child td:last-child {
+  border-bottom: 0px;
+}
+
+tbody {
+  display: table;
+  width: 100%;
+  border: 3px solid rgb(255, 255, 255);
   font-weight: bold;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+tfoot {
+  color: white;
+  text-shadow: 1px 1px 1px black;
 }
 
 thead,
 tfoot {
-  background: url(imgs/leopardskin.jpg);
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1.75px 1.75px 1.75px black;
 }
 
 thead th {
   padding: 0.75em 0 0.75em 0;
   background-color: rgba(74, 70, 94, 0.95);
+  /* text-shadow: 3px 3px 3px rgba(150, 146, 174, 0.5); */
 }
 
 tfoot th,
@@ -110,4 +124,5 @@ caption {
   letter-spacing: 1px;
   font-size: 2.5rem;
   font-weight: bold;
+  text-shadow: 3px 3px 3px rgba(150, 146, 174, 0.5);
 }

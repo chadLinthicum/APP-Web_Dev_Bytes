@@ -2291,6 +2291,8 @@ header.major {
 
 header.major:after {
   background: rgba(122, 115, 156, 1);
+  box-shadow: 3px 3px 3px rgba(150, 146, 174, 0.5);
+  border-radius: 5px;
   content: "";
   display: inline-block;
   height: 0.2em;
