@@ -3063,21 +3063,6 @@ input[type="button"]:disabled,
   z-index: 1;
 }
 
-.goto-next-alt {
-  border: 0;
-  bottom: 0;
-  display: block;
-  height: 5em;
-  left: 50%;
-  margin: 0 0 0 -5em;
-  overflow: hidden;
-  position: absolute;
-  text-indent: 10em;
-  white-space: nowrap;
-  width: 10em;
-  z-index: 1;
-}
-
 .goto-next:before {
   background-image: url("images/arrow_white.svg");
   background-position: center center;
@@ -3090,22 +3075,6 @@ input[type="button"]:disabled,
   margin: -0.75em 0 0 -1em;
   position: absolute;
   top: 50%;
-  width: 2em;
-  z-index: 1;
-}
-
-.goto-next-alt:before {
-  background-image: url("images/arrow_black.svg");
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
-  content: "";
-  display: block;
-  height: 1.5em;
-  left: 50%;
-  margin: -0.75em 0 0 -1em;
-  position: absolute;
-  top: 45%;
   width: 2em;
   z-index: 1;
 }
@@ -4019,7 +3988,7 @@ body.is-touch #banner {
   /* Spotlight */
 
   .spotlight {
-    box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+    box-shadow: 0 0.225em 2.5em 0 rgba(122, 115, 156, 0.5);
   }
 
   .spotlight .image.main {
