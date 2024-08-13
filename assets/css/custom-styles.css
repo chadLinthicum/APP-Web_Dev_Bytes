@@ -10,11 +10,13 @@
 .table-wrap table:nth-child(1) {
   width: 33%;
   min-width: 300px;
+  margin-bottom: 40px;
 }
 
 .table-wrap table:nth-child(2) {
   width: 33%;
   min-width: 300px;
+  margin-bottom: 40px;
 }
 
 .table-wrap table:nth-child(3) {
