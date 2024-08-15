@@ -22,6 +22,7 @@
 .table-wrap table:nth-child(3) {
   width: 33%;
   min-width: 300px;
+  margin-bottom: 40px;
 }
 
 th {
