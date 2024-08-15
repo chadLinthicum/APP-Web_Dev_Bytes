@@ -201,7 +201,7 @@ textarea {
   color: rgba(255, 255, 255, 0.75);
   font-family: "Roboto", Helvetica, sans-serif;
   font-size: 15pt;
-  font-weight: 100;
+  /* font-weight: 100; */
   line-height: 1.75em;
 }
 
@@ -2423,7 +2423,7 @@ input[type="radio"] + label {
   cursor: pointer;
   display: inline-block;
   font-size: 1em;
-  font-weight: 100;
+  /* font-weight: 100; */
   padding-left: 2.55em;
   padding-right: 0.75em;
   position: relative;
@@ -3032,7 +3032,7 @@ input[type="submit"].primary:active,
 input[type="reset"].primary:active,
 input[type="button"].primary:active,
 .button.primary:active {
-  background-color: #e13652;
+  background-color: rgba(128, 175, 0, 0.95);
 }
 
 input[type="submit"].disabled,

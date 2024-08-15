@@ -28,14 +28,14 @@
       <!-- Header -->
       <header id="header">
         <h1 id="logo">
-          <a href="index.html">⌂</a>
+          <a href="index.html" class="scrolly">⌂</a>
           <!-- <a href="index.html">🏠︎</a> -->
         </h1>
         <nav id="nav">
           <ul>
             <!-- <li><a href="index.html">Home</a></li> -->
             <li>
-              <a href="#">About</a>
+              <a href="#one" class="scrolly">About</a>
               <ul>
                 <li><a href="left-sidebar.html">Left Sidebar</a></li>
                 <li><a href="right-sidebar.html">Right Sidebar</a></li>
@@ -51,9 +51,11 @@
                 </li>
               </ul>
             </li>
-            <li><a href="elements.html">Portfolio</a></li>
-            <li><a href="elements.html">Pricing</a></li>
-            <li><a href="#" class="button primary">Contact</a></li>
+            <li><a href="#two" class="scrolly">Portfolio</a></li>
+            <li><a href="#three" class="scrolly">Pricing</a></li>
+            <li>
+              <a href="#contact" class="button primary scrolly">Contact</a>
+            </li>
           </ul>
         </nav>
       </header>
@@ -129,34 +131,11 @@
             <li><a href="#" class="button">View Portfolio</a></li>
           </ul>
         </div>
-        <a href="#four" class="goto-next scrolly">Next</a>
+        <a href="#three" class="goto-next scrolly">Next</a>
       </section>
 
       <!-- Three -->
-      <!-- <section id="three" class="spotlight style3 left">
-        <span class="image fit main bottom"
-          ><img src="images/pic04.jpg" alt=""
-        /></span>
-        <div class="content">
-          <header>
-            <h2>Interdum felis blandit praesent sed augue</h2>
-            <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
-          </header>
-          <p>
-            Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor
-            enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep
-            aliquet augue varius tempus lobortis porttitor lorem et accumsan
-            consequat adipiscing lorem.
-          </p>
-          <ul class="actions">
-            <li><a href="#" class="button">Learn More</a></li>
-          </ul>
-        </div>
-        <a href="#four" class="goto-next scrolly">Next</a>
-      </section> -->
-
-      <!-- Four -->
-      <section id="four" class="wrapper style1 special fade-up">
+      <section id="three" class="wrapper style1 special fade-up">
         <div class="container">
           <header class="major">
             <h2>Pricing</h2>
@@ -298,25 +277,45 @@
       </section>
 
       <!-- Five -->
-      <section id="five" class="wrapper style2 special fade">
+      <section id="contact" class="wrapper style2 special fade">
         <div class="container">
           <header>
             <h2>Contact Us</h2>
-            <p>Please reach out to us if you need anything at all</p>
+            <span
+              ><strong>
+                Please reach out if you need anything at all:</strong
+              ></span
+            >
+            <p>wdbytes@gmail.com<br /><strong>540.522.2005</strong></p>
           </header>
-          <form method="post" action="#" class="cta">
-            <div class="row gtr-uniform gtr-50">
-              <div class="col-8 col-12-xsmall">
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  placeholder="Type your message"
-                />
-              </div>
-              <div class="col-4 col-12-xsmall">
-                <input type="submit" value="Send" class="fit primary" />
-              </div>
+          <form
+            target="_blank"
+            action="https://formsubmit.co/wdbytes@gmail.com"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              class="form-control"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              class="form-control"
+              placeholder="Email Address"
+              required
+            />
+            <textarea
+              placeholder="Your Message"
+              class="form-control"
+              name="message"
+              rows="10"
+              required
+            ></textarea>
+            <div class="col-4 col-12-xsmall">
+              <input type="submit" value="Send" class="fit primary" />
             </div>
           </form>
         </div>

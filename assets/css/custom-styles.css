@@ -129,3 +129,12 @@ caption {
   font-weight: bold;
   text-shadow: 3px 3px 3px rgba(150, 146, 174, 0.5);
 }
+
+#contact input {
+  margin-bottom: 10px;
+}
+
+#contact textarea {
+  margin-bottom: 10px;
+  line-height: 1rem;
+}
