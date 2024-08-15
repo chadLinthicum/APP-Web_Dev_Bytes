@@ -217,7 +217,7 @@ a {
 }
 
 a:hover {
-  color: #2e274ff2 !important;
+  color: rgba(128, 175, 0, 0.95) !important;
   border-bottom-color: transparent;
   font-weight: bold;
 }
@@ -2722,7 +2722,7 @@ dl {
 /* Icons */
 
 ul.icons {
-  cursor: default;
+  /* cursor: default; */
   list-style: none;
   padding-left: 0;
 }
@@ -2749,7 +2749,7 @@ ul.actions {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  cursor: default;
+  /* cursor: default; */
   list-style: none;
   margin-left: -1em;
   padding-left: 0;
@@ -3564,7 +3564,7 @@ body.landing .dropotron.level-0 {
 
 #header nav ul li.active > a,
 #header nav ul li.active > span {
-  color: #2e274ff2;
+  /* color: #2e274ff2; */
 }
 
 #header nav ul li > ul {
@@ -4299,4 +4299,10 @@ body.is-touch #banner {
     margin: 0;
     padding: 0;
   }
+}
+
+#footer .copyright a {
+  text-decoration: none !important;
+  cursor: pointer;
+  border-bottom: none;
 }
