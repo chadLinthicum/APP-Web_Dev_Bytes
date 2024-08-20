@@ -142,3 +142,36 @@ caption {
 p {
   text-wrap: pretty;
 }
+
+.background-image-wrap {
+  background-color: rgba(255, 255, 255, 0.3); /* White with opacity */
+  border: 1px solid rgb(255, 255, 255, 0.25);
+  border-radius: 4px;
+}
+
+.background-image-wrap:hover {
+  background-color: rgba(167, 167, 167, 0.777); /* White with opacity */
+  border: 1px solid white;
+  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out;
+  border-radius: 5px;
+}
+
+.background-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: 0.5;
+}
+
+.overlay-image {
+  position: absolute;
+  top: 50%; /* Center the overlay vertically */
+  left: 50%; /* Center the overlay horizontally */
+  transform: translate(-50%, -50%); /* Adjust for image size */
+  width: auto; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  max-width: 75%; /* Ensure it fits within the container */
+  max-height: 100%; /* Ensure it fits within the container */
+  pointer-events: none; /* Allows click on the background image */
+}

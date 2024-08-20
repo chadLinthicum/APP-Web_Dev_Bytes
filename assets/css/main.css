@@ -2017,6 +2017,7 @@ body.landing.is-preload:after {
     flex-wrap: wrap;
     box-sizing: border-box;
     align-items: stretch;
+    text-align: center;
   }
 
   .row > * {
@@ -3913,7 +3914,7 @@ body.is-touch #banner {
   }
 
   #banner .goto-next {
-    height: 7em;
+    height: 14em;
   }
 
   #banner .content {
@@ -4268,7 +4269,7 @@ body.is-touch #banner {
   input[type="reset"],
   input[type="button"],
   .button {
-    padding: 0;
+    margin: 5px 5px 5px 0px;
   }
 
   /* Spotlight */
