@@ -138,3 +138,7 @@ caption {
   margin-bottom: 10px;
   line-height: 1rem;
 }
+
+p {
+  text-wrap: pretty;
+}
