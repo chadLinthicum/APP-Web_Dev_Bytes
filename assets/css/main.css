@@ -300,8 +300,8 @@ sup {
 
 hr {
   border: 0;
-  border-bottom: solid 1px rgba(255, 255, 255, 0.3);
-  margin: 3em 0;
+  border-bottom: solid 2px rgba(255, 255, 255, 0.25);
+  margin: 2em 0;
 }
 
 hr.major {
@@ -2252,6 +2252,14 @@ body.landing.is-preload:after {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 5em;
   }
+
+  .col-8 {
+    order: 1;
+  }
+
+  .col-4 {
+    order: 2;
+  }
 }
 
 /* Section/Article */
@@ -3985,7 +3993,7 @@ body.is-touch #banner {
   }
 
   header.major {
-    margin: 0 0 1em 0;
+    margin: 0 0 2em 0;
   }
 
   /* Goto Next */
