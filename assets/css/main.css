@@ -3015,9 +3015,9 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #2e274ff2;
+  background-color: rgba(128, 175, 0, 0.95);
   box-shadow: none;
-  color: #ffffff !important;
+  color: #000000 !important;
   font-weight: bold;
 }
 
@@ -3025,7 +3025,7 @@ input[type="submit"].primary:hover,
 input[type="reset"].primary:hover,
 input[type="button"].primary:hover,
 .button.primary:hover {
-  background-color: rgba(134, 126, 170, 0.95);
+  background-color: rgba(201, 235, 109, 0.95);
 }
 
 input[type="submit"].primary:active,
@@ -3056,7 +3056,7 @@ input[type="button"]:disabled,
   border: 0;
   bottom: 0;
   display: block;
-  height: 5em;
+  height: 8em;
   left: 50%;
   margin: 0 0 0 -5em;
   overflow: hidden;
@@ -3504,7 +3504,7 @@ body.landing .dropotron.level-0 {
 }
 
 #header {
-  background: rgba(39, 40, 51, 0.965);
+  background: rgba(39, 40, 51, 0.965) !important;
   box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
   cursor: default;
   height: 3.5em;
@@ -3903,7 +3903,7 @@ body.is-touch #banner {
   }
 
   #banner .goto-next {
-    height: 7em;
+    height: 20em;
   }
 
   #banner .content {
