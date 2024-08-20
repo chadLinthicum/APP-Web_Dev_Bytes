@@ -3677,7 +3677,7 @@ body.landing #header {
   padding: 6em;
   position: relative;
   text-align: right;
-  vertical-align: middle;
+  /* vertical-align: middle; */
   z-index: 1;
 }
 
