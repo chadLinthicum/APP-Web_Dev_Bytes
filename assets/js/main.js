@@ -47,6 +47,7 @@
       '<span class="title">' +
       $("#logo").html() +
       "</span>" +
+      '<a id="nav-contact" href="#contact" class="button primary scrolly">☎ Contact</a>' +
       "</div>"
   ).appendTo($body);
 
