@@ -139,6 +139,19 @@ caption {
   line-height: 1rem;
 }
 
+#contact a {
+  color: rgba(128, 175, 0, 1);
+  border-bottom: solid 1px;
+  font-style: italic;
+  /* border-bottom: none;
+  text-decoration: underline; */
+}
+
+#contact li {
+  list-style-type: none;
+  padding-left: 0em !important;
+}
+
 p {
   text-wrap: pretty;
 }
