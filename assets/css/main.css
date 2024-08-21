@@ -3092,6 +3092,19 @@ input[type="button"]:disabled,
   top: 50%;
   width: 2em;
   z-index: 1;
+  animation: moveDown 1s ease-in-out infinite;
+}
+
+@keyframes moveDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* Spotlight */
