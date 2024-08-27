@@ -198,3 +198,12 @@ p {
   width: 5.5em;
   line-height: 2em;
 }
+
+#sale_promo {
+  width: 80vw;
+  max-width: 600px;
+  border-radius: 25px;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 5px rgba(150, 146, 174, 0.5);
+  border: 3px solid rgba(122, 115, 156, 1);
+}
