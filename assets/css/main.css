@@ -4007,7 +4007,7 @@ body.is-touch #banner {
   }
 
   header.major {
-    margin: 0 0 0 0;
+    margin: 0 0 2em 0;
   }
 
   /* Goto Next */
