@@ -153,7 +153,7 @@ caption {
 }
 
 p {
-  text-wrap: pretty;
+  text-wrap: pretty !important;
 }
 
 .background-image-wrap {
