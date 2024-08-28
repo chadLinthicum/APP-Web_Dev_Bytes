@@ -37,7 +37,7 @@
     // Add the image after the links
     b.push(
       '<div class="nav-image">' +
-        '<img id="nav-image" src="images/logo-white.png" alt="Navigation Icon" />' +
+        '<img id="nav-image" src="../../images/logo-white.png" alt="Navigation Icon" />' +
         "</div>"
     );
 
