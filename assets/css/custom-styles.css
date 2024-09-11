@@ -4,23 +4,29 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .table-wrap table:nth-child(1) {
-  width: 33%;
+  width: 25%;
   min-width: 300px;
   margin-bottom: 40px;
 }
 
 .table-wrap table:nth-child(2) {
-  width: 33%;
+  width: 25%;
   min-width: 300px;
   margin-bottom: 40px;
 }
 
 .table-wrap table:nth-child(3) {
-  width: 33%;
+  width: 25%;
+  min-width: 300px;
+  margin-bottom: 40px;
+}
+
+.table-wrap table:nth-child(4) {
+  width: 25%;
   min-width: 300px;
   margin-bottom: 40px;
 }
@@ -231,4 +237,12 @@ section {
 
 ul {
   list-style-type: none;
+}
+
+#banner-ad {
+  z-index: 1;
+  width: 17em;
+  position: absolute;
+  top: 70px;
+  right: 0px;
 }

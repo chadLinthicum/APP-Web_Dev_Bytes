@@ -2758,6 +2758,7 @@ ul.actions {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  justify-content: center;
   /* cursor: default; */
   list-style: none;
   margin-left: -1em;
@@ -2823,6 +2824,12 @@ ul.actions.fit.stacked {
 }
 
 @media screen and (max-width: 480px) {
+  #banner-ad {
+    width: 12em !important;
+    top: 2px !important;
+    right: 0px !important;
+  }
+
   ul.actions:not(.fixed) {
     -moz-flex-direction: column;
     -webkit-flex-direction: column;
@@ -3867,6 +3874,7 @@ body.is-touch #banner {
 
   .table-wrap {
     flex-direction: column;
+    align-items: center !important;
   }
 
   /* Spotlight */
