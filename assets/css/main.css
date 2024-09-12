@@ -2825,7 +2825,7 @@ ul.actions.fit.stacked {
 
 @media screen and (max-width: 480px) {
   #banner-ad {
-    width: 12em !important;
+    width: 40vw !important;
     top: 2px !important;
     right: 0px !important;
   }
